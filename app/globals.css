@@ -2,6 +2,6 @@
 
 @layer base {
   body{
-    background: var(--color-orange-100);
+    @apply bg-orange-50;
   }
 }
