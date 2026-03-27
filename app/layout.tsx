@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen max-w-5xl mx-auto flex flex-col">
+      <body className="min-h-dvh max-w-5xl mx-auto flex flex-col">
         {children}
         <Footer />
       </body>
