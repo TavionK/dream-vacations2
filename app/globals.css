@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
   body{
-    @apply bg-orange-50;
+    @apply bg-orange-100;
   }
 }
